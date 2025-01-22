@@ -10,7 +10,7 @@
 # ---------------------------
 
 # Hostname for master server (SMS)
-sms_name="${sms_name:-head}"
+sms_name="${sms_name:-mgmt}"
 
 # Cluster name
 cluster_name="${cluster_name:-Thor3}"
