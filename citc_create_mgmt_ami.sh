@@ -2,7 +2,7 @@
 ## Launch new RH9 instance without LVM with 20G root
 ## 
 ## Repartition:
-## https://github.com/Ice4Dev/rhel9-disastig-partition
+## https://github.com/mntbighker/rhel9-disastig-partition
 ##
 # 90G
 # part /boot # 500M
