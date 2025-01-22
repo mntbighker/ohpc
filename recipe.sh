@@ -1,16 +1,4 @@
 #!/usr/bin/bash
-# -----------------------------------------------------------------------------------------
-#  Example Installation Script Template
-#  This convenience script encapsulates command-line instructions highlighted in
-#  an OpenHPC Install Guide that can be used as a starting point to perform a local
-#  cluster install beginning with bare-metal. Necessary inputs that describe local
-#  hardware characteristics, desired network settings, and other customizations
-#  are controlled via a companion input file that is used to initialize variables
-#  within this script.
-#  Please see the OpenHPC Install Guide(s) for more information regarding the
-#  procedure. Note that the section numbering included in this script refers to
-#  corresponding sections from the companion install guide.
-# -----------------------------------------------------------------------------------------
 
 # sh ./recipe.sh > OpenHPC.log 2>&1
 
@@ -22,11 +10,6 @@ if [ ! -e ${inputFile} ];then
 else
    . ${inputFile} || { echo "Error sourcing ${inputFile}"; exit 1; }
 fi
-
-# ---------------------------- Begin OpenHPC Recipe ---------------------------------------
-# Commands below are extracted from an OpenHPC install guide recipe and are intended for
-# execution on the master SMS host.
-# -----------------------------------------------------------------------------------------
 
 # Verify OpenHPC repository has been enabled before proceeding
 
